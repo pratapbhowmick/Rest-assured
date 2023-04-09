@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 public class JSONSchemaValidator {
 	@Test
 	public void testGet() {
-		baseURI="https://reqres.in/api";
+		baseURI="https://reqres.in";
 		given()
-			.get("/users?page=2")
+			.get("/api/users?page=2")
 		.then()
 			.assertThat().body(matchesJsonSchemaInClasspath("schema.json"))
 			.statusCode(200);

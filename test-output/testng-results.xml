@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="2" total="15" passed="12" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-09T21:51:39 IST" name="Default suite" finished-at="2023-04-09T21:51:46 IST" duration-ms="6133">
+  <suite started-at="2023-04-09T23:07:32 IST" name="Suite" finished-at="2023-04-09T23:07:43 IST" duration-ms="11110">
     <groups>
     </groups>
-    <test started-at="2023-04-09T21:51:39 IST" name="Default test" finished-at="2023-04-09T21:51:46 IST" duration-ms="6133">
+    <test started-at="2023-04-09T23:07:32 IST" name="Test" finished-at="2023-04-09T23:07:43 IST" duration-ms="11110">
+      <class name="tests.PutPatchDeleteExamples">
+        <test-method signature="testDelete()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:07:38 IST" name="testDelete" finished-at="2023-04-09T23:07:38 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method signature="testPatch()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:07:38 IST" name="testPatch" finished-at="2023-04-09T23:07:38 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatch -->
+        <test-method signature="testPut()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:07:38 IST" name="testPut" finished-at="2023-04-09T23:07:39 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPut -->
+      </class> <!-- tests.PutPatchDeleteExamples -->
+      <class name="tests.JSONSchemaValidator">
+        <test-method signature="testGet()[pri:0, instance:tests.JSONSchemaValidator@342c38f8]" started-at="2023-04-09T23:07:36 IST" name="testGet" finished-at="2023-04-09T23:07:38 IST" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+      </class> <!-- tests.JSONSchemaValidator -->
       <class name="tests.XMLSchemaValidation">
-        <test-method signature="schemaValidation()[pri:0, instance:tests.XMLSchemaValidation@6283d8b8]" started-at="2023-04-09T21:51:40 IST" name="schemaValidation" finished-at="2023-04-09T21:51:46 IST" duration-ms="6046" status="FAIL">
+        <test-method signature="schemaValidation()[pri:0, instance:tests.XMLSchemaValidation@5d0a1059]" started-at="2023-04-09T23:07:39 IST" name="schemaValidation" finished-at="2023-04-09T23:07:41 IST" duration-ms="2132" status="FAIL">
           <exception class="org.xml.sax.SAXParseException">
             <message>
               <![CDATA[Premature end of file.]]>
@@ -42,8 +62,7 @@ at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.j
 at io.restassured.internal.matcher.xml.XmlXsdMatcher.matches(XmlXsdMatcher.groovy:82)
 at org.hamcrest.Matcher$matches$0.call(Unknown Source)
 at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at org.hamcrest.Matcher$matches.call(Unknown Source)
 at io.restassured.assertion.BodyMatcher.validate(BodyMatcher.groovy:76)
 at io.restassured.assertion.BodyMatcher$validate$0.call(Unknown Source)
 at io.restassured.assertion.BodyMatcherGroup$_validate_closure2.doCall(BodyMatcherGroup.groovy:47)
@@ -76,8 +95,6 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
 at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
 at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:99)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
@@ -128,6 +145,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- schemaValidation -->
       </class> <!-- tests.XMLSchemaValidation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.GetAndPostExamples">
+        <test-method signature="testPost()[pri:0, instance:tests.GetAndPostExamples@485966cc]" started-at="2023-04-09T23:07:41 IST" name="testPost" finished-at="2023-04-09T23:07:42 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+      </class> <!-- tests.GetAndPostExamples -->
+      <class name="tests.SoapXMLRequest">
+        <test-method signature="validateSoapXML()[pri:0, instance:tests.SoapXMLRequest@1de76cc7]" started-at="2023-04-09T23:07:42 IST" name="validateSoapXML" finished-at="2023-04-09T23:07:42 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSoapXML -->
+      </class> <!-- tests.SoapXMLRequest -->
+      <class name="tests.TestOnLocalAPI">
+        <test-method signature="get()[pri:0, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:32 IST" name="get" finished-at="2023-04-09T23:07:35 IST" duration-ms="3661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method signature="post()[pri:0, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:35 IST" name="post" finished-at="2023-04-09T23:07:36 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+        <test-method signature="put()[pri:1, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:36 IST" name="put" finished-at="2023-04-09T23:07:36 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put -->
+        <test-method signature="patch()[pri:2, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:36 IST" name="patch" finished-at="2023-04-09T23:07:36 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch -->
+        <test-method signature="delete()[pri:3, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:36 IST" name="delete" finished-at="2023-04-09T23:07:36 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- tests.TestOnLocalAPI -->
+      <class name="tests.TestsExamples">
+        <test-method signature="test_2()[pri:0, instance:tests.TestsExamples@54bff557]" started-at="2023-04-09T23:07:42 IST" name="test_2" finished-at="2023-04-09T23:07:43 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+      </class> <!-- tests.TestsExamples -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
