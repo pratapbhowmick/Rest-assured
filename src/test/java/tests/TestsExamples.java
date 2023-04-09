@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.*;
 
 
 public class TestsExamples {
-	@Test(enabled = false)
+	@Test(priority=1)
 	public void test_1() {
 		Response response= get("https://reqres.in/api/users?page=2");
 		System.out.println(response.getStatusCode()); 
@@ -23,7 +23,7 @@ public class TestsExamples {
 		System.out.println(response.getHeader("content-type"));
 		Assert.assertEquals(response.getStatusCode(), 200);
 	}
-	@Test
+	@Test(priority=2)
 	public void test_2() {
 		baseURI="https://reqres.in/api";
 		given()
