@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="15" passed="12" failed="1" skipped="0">
+<testng-results ignored="1" total="15" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-09T23:07:32 IST" name="Suite" finished-at="2023-04-09T23:07:43 IST" duration-ms="11110">
+  <suite started-at="2023-04-09T23:13:24 IST" name="Suite" finished-at="2023-04-09T23:13:34 IST" duration-ms="10219">
     <groups>
     </groups>
-    <test started-at="2023-04-09T23:07:32 IST" name="Test" finished-at="2023-04-09T23:07:43 IST" duration-ms="11110">
+    <test started-at="2023-04-09T23:13:24 IST" name="Test" finished-at="2023-04-09T23:13:34 IST" duration-ms="10219">
       <class name="tests.PutPatchDeleteExamples">
-        <test-method signature="testDelete()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:07:38 IST" name="testDelete" finished-at="2023-04-09T23:07:38 IST" duration-ms="457" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:13:29 IST" name="testDelete" finished-at="2023-04-09T23:13:30 IST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method signature="testPatch()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:07:38 IST" name="testPatch" finished-at="2023-04-09T23:07:38 IST" duration-ms="449" status="PASS">
+        <test-method signature="testPatch()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:13:30 IST" name="testPatch" finished-at="2023-04-09T23:13:30 IST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatch -->
-        <test-method signature="testPut()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:07:38 IST" name="testPut" finished-at="2023-04-09T23:07:39 IST" duration-ms="447" status="PASS">
+        <test-method signature="testPut()[pri:0, instance:tests.PutPatchDeleteExamples@c88a337]" started-at="2023-04-09T23:13:30 IST" name="testPut" finished-at="2023-04-09T23:13:30 IST" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPut -->
       </class> <!-- tests.PutPatchDeleteExamples -->
       <class name="tests.JSONSchemaValidator">
-        <test-method signature="testGet()[pri:0, instance:tests.JSONSchemaValidator@342c38f8]" started-at="2023-04-09T23:07:36 IST" name="testGet" finished-at="2023-04-09T23:07:38 IST" duration-ms="1661" status="PASS">
+        <test-method signature="testGet()[pri:0, instance:tests.JSONSchemaValidator@342c38f8]" started-at="2023-04-09T23:13:27 IST" name="testGet" finished-at="2023-04-09T23:13:29 IST" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
       </class> <!-- tests.JSONSchemaValidator -->
       <class name="tests.XMLSchemaValidation">
-        <test-method signature="schemaValidation()[pri:0, instance:tests.XMLSchemaValidation@5d0a1059]" started-at="2023-04-09T23:07:39 IST" name="schemaValidation" finished-at="2023-04-09T23:07:41 IST" duration-ms="2132" status="FAIL">
+        <test-method signature="schemaValidation()[pri:0, instance:tests.XMLSchemaValidation@5d0a1059]" started-at="2023-04-09T23:13:30 IST" name="schemaValidation" finished-at="2023-04-09T23:13:32 IST" duration-ms="1926" status="FAIL">
           <exception class="org.xml.sax.SAXParseException">
             <message>
               <![CDATA[Premature end of file.]]>
@@ -146,41 +146,45 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- schemaValidation -->
       </class> <!-- tests.XMLSchemaValidation -->
       <class name="tests.GetAndPostExamples">
-        <test-method signature="testPost()[pri:0, instance:tests.GetAndPostExamples@485966cc]" started-at="2023-04-09T23:07:41 IST" name="testPost" finished-at="2023-04-09T23:07:42 IST" duration-ms="481" status="PASS">
+        <test-method signature="testPost()[pri:0, instance:tests.GetAndPostExamples@485966cc]" started-at="2023-04-09T23:13:32 IST" name="testPost" finished-at="2023-04-09T23:13:33 IST" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->
       </class> <!-- tests.GetAndPostExamples -->
       <class name="tests.SoapXMLRequest">
-        <test-method signature="validateSoapXML()[pri:0, instance:tests.SoapXMLRequest@1de76cc7]" started-at="2023-04-09T23:07:42 IST" name="validateSoapXML" finished-at="2023-04-09T23:07:42 IST" duration-ms="651" status="PASS">
+        <test-method signature="validateSoapXML()[pri:0, instance:tests.SoapXMLRequest@1de76cc7]" started-at="2023-04-09T23:13:33 IST" name="validateSoapXML" finished-at="2023-04-09T23:13:34 IST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSoapXML -->
       </class> <!-- tests.SoapXMLRequest -->
       <class name="tests.TestOnLocalAPI">
-        <test-method signature="get()[pri:0, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:32 IST" name="get" finished-at="2023-04-09T23:07:35 IST" duration-ms="3661" status="PASS">
+        <test-method signature="get()[pri:0, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:13:24 IST" name="get" finished-at="2023-04-09T23:13:27 IST" duration-ms="3261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get -->
-        <test-method signature="post()[pri:0, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:35 IST" name="post" finished-at="2023-04-09T23:07:36 IST" duration-ms="197" status="PASS">
+        <test-method signature="post()[pri:0, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:13:27 IST" name="post" finished-at="2023-04-09T23:13:27 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- post -->
-        <test-method signature="put()[pri:1, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:36 IST" name="put" finished-at="2023-04-09T23:07:36 IST" duration-ms="85" status="PASS">
+        <test-method signature="put()[pri:1, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:13:27 IST" name="put" finished-at="2023-04-09T23:13:27 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- put -->
-        <test-method signature="patch()[pri:2, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:36 IST" name="patch" finished-at="2023-04-09T23:07:36 IST" duration-ms="60" status="PASS">
+        <test-method signature="patch()[pri:2, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:13:27 IST" name="patch" finished-at="2023-04-09T23:13:27 IST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patch -->
-        <test-method signature="delete()[pri:3, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:07:36 IST" name="delete" finished-at="2023-04-09T23:07:36 IST" duration-ms="104" status="PASS">
+        <test-method signature="delete()[pri:3, instance:tests.TestOnLocalAPI@f5acb9d]" started-at="2023-04-09T23:13:27 IST" name="delete" finished-at="2023-04-09T23:13:27 IST" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete -->
       </class> <!-- tests.TestOnLocalAPI -->
       <class name="tests.TestsExamples">
-        <test-method signature="test_2()[pri:0, instance:tests.TestsExamples@54bff557]" started-at="2023-04-09T23:07:42 IST" name="test_2" finished-at="2023-04-09T23:07:43 IST" duration-ms="553" status="PASS">
+        <test-method signature="test_1()[pri:1, instance:tests.TestsExamples@54bff557]" started-at="2023-04-09T23:13:34 IST" name="test_1" finished-at="2023-04-09T23:13:34 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method signature="test_2()[pri:2, instance:tests.TestsExamples@54bff557]" started-at="2023-04-09T23:13:34 IST" name="test_2" finished-at="2023-04-09T23:13:34 IST" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_2 -->
